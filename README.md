@@ -11,6 +11,14 @@ A simple component and hook that works with the Vercel AI SDK to allow the user 
 - 🧩 Built in TypeScript to ensure Type Safety
 - 💾 [`localStorage` support to save settings](#general-options)
 
+## Installation
+
+Install `react-model-picker` with your favorite package manager.
+
+```sh
+npm i react-model-picker
+```
+
 ## Quick Start
 
 This is all you need to make a model switcher with OpenAI and Google Generative AI providers, just like the image above.
