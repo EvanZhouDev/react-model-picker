@@ -148,7 +148,7 @@ export enum ModelType {
 }
 
 export interface ModelPickerProps {
-	providers: { provider: () => Provider; name: string; models: string[] }[];
+	providers: { provider: () => any; name: string; models: string[] }[];
 	options?: {
 		modelType?: ModelType;
 		useLocalStorage?: boolean;
